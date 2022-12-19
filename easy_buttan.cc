@@ -1,12 +1,12 @@
 //easy_buttan program
-/*‚¨‚Ü‚¶‚È‚¢*/
+/*ãŠã¾ã˜ãªã„*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-/*‚¨‚Ü‚¶‚È‚¢I‚í‚è*/
+/*ãŠã¾ã˜ãªã„çµ‚ã‚ã‚Š*/
 
-/*scene‚ğ‚¢‚¶‚éƒpƒuƒŠƒbƒNƒNƒ‰ƒX*/
+/*sceneã‚’ã„ã˜ã‚‹ãƒ‘ãƒ–ãƒªãƒƒã‚¯ã‚¯ãƒ©ã‚¹*/
 public class ScreenTransition : MonoBehaviour {
 
     // Use this for initialization
@@ -20,14 +20,17 @@ public class ScreenTransition : MonoBehaviour {
     }
 
   
-    //ƒ{ƒ^ƒ“‚ğ‰Ÿ‚µ‚½‚Ìˆ—
+    //ãƒœã‚¿ãƒ³ã‚’æŠ¼ã—ãŸæ™‚ã®å‡¦ç†
     public void PushButton()
     {
-        //level•Ï”‚ğ‚O‚É‚µ‚Ä“ïˆÕ“x‚ğ—D‚µ‚¢‚É
+        //levelå¤‰æ•°ã‚’ï¼ã«ã—ã¦é›£æ˜“åº¦ã‚’å„ªã—ã„ã«
         public int level = 0;
-        //scene‚ğ‚Q‚É•ÏX
+        //sceneã‚’ï¼’ã«å¤‰æ›´
         public int scene = 2;
-        //scene‚Ésceneƒ`ƒFƒ“ƒW‚·‚é
+        //sceneã«sceneãƒã‚§ãƒ³ã‚¸ã™ã‚‹
         SceneManager.LoadScene("scene");
     }
 }
+
+https://mogi0506.com/unity-scene-switching-button/
+/*ä½¿ã†ã¨ãã®å‚è€ƒã«ã©ã†ã*/
